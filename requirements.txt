@@ -1,7 +1,6 @@
 torch
 transformers
 matplotlib
-sklearn
+scikit-learn
 numpy
 pandas
-seqeval

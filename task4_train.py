@@ -10,7 +10,7 @@ DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if 
 
 def train_model(model, dataset, num_epochs=2, batch_size=32, 
                 learning_rate=1e-4, device=DEVICE, random_seed=42,
-                freeze_transformer=True, freeze_taskA=False, freeze_taskB=True,
+                freeze_transformer=True, freeze_taskA=False, freeze_taskB=False,
                 alpha=0.6, beta=0.8):
     """
     Train the multitask sentence transformer model.
