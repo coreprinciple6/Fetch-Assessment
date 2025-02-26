@@ -32,9 +32,6 @@ This repository contains all the code related to the take-home assessment from F
   - Trains and evaluates the model.
   - Saves the generated graphs to the `graphs` folder.
 
-- **Docker Setup**  
-  Instructions for running the entire project inside a Docker container for ease of setup and reproducibility are provided within the repository.
-
 - **Explanation.pdf**  
   A detailed report covering:
   - An explanation of the project components.
@@ -55,7 +52,6 @@ This repository contains all the code related to the take-home assessment from F
   sklearn,
   numpy,
   pandas,
-  seqeval,
   docker,
 
 ### Installation
@@ -89,6 +85,14 @@ python task4_main.py
 ### Using Docker
 
 For an easier and reproducible setup, you can run the project within a Docker container.
-
+- Ensure docker is installed and running
+- build the docker image by running the following command
+  ```bash
+  docker build -t sentence-transformer-mtl .
+  ```
+- Run the docker container by running the following command
+  ```bash
+  docker run --rm -it -v $(pwd)/graphs:/app/graphs sentence-transformer-mtl
+  ```
 
 
