@@ -1,6 +1,6 @@
-# Sentence Transformers & Multi-Task Learning Assessment by Fetch
+# Sentence Transformers & Multi-Task Learning
 
-This repository contains all the code related to the take-home assessment from Fetch on the topic **Sentence Transformers & Multi-Task Learning**. The objective of this project is to demonstrate how to expand a pre-trained sentence transformer model for a multi-task learning scenario. The repository includes data preparation, model expansion, training, evaluation, and visualization components.
+This repository contains all the code related to the topic **Sentence Transformers & Multi-Task Learning**. The objective of this project is to demonstrate how to expand a pre-trained sentence transformer model for a multi-task learning scenario. The repository includes data preparation, model expansion, training, evaluation, and visualization components.
 
 ---
 
